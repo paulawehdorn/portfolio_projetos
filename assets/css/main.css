@@ -1296,13 +1296,15 @@ ul.actions {
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
+  flex-wrap: wrap;
   cursor: default;
   list-style: none;
   margin-left: -1em;
   padding-left: 0; }
   ul.actions li {
     padding: 0 0 0 1em;
-    vertical-align: middle; }
+    vertical-align: middle; 
+    margin-bottom: 10px}
   ul.actions.special {
     -moz-justify-content: center;
     -webkit-justify-content: center;
@@ -1338,6 +1340,22 @@ ul.actions {
         width: 100%; }
     ul.actions.fit.stacked {
       width: 100%; }
+
+/* Competencias */
+.competencia {
+  background-color: #ccc;
+  padding: 5px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .competencia {
+    margin-bottom: 10px;
+  }
+}
 
 /* Icons */
 ul.icons {
