@@ -91,7 +91,7 @@ body {
 
 /* Type */
 body, input, select, textarea {
-  color: #7f888f;
+  color: #7E93AB;
   font-family: "Open Sans", sans-serif;
   font-size: 13pt;
   font-weight: 400;
@@ -121,7 +121,7 @@ a {
       color: inherit; }
 
 strong, b {
-  color: #3d4449;
+  color: #0C213D;
   font-weight: 600; }
 
 em, i {
@@ -131,7 +131,7 @@ p {
   margin: 0 0 2em 0; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #3d4449;
+  color: #0C213D;
   font-family: "Roboto Slab", serif;
   font-weight: 700;
   line-height: 1.5;
@@ -1011,7 +1011,7 @@ form {
   margin: 0 0 2em 0; }
 
 label {
-  color: #3d4449;
+  color: #0C213D;
   display: block;
   font-size: 0.9em;
   font-weight: 600;
@@ -1068,7 +1068,7 @@ select {
   padding-right: 2.75em;
   text-overflow: ellipsis; }
   select option {
-    color: #3d4449;
+    color: #0C213D;
     background: #ffffff; }
   select:focus::-ms-value {
     background-color: transparent; }
@@ -1102,7 +1102,7 @@ input[type="radio"] {
   input[type="checkbox"] + label,
   input[type="radio"] + label {
     text-decoration: none;
-    color: #7f888f;
+    color: #7E93AB;
     cursor: pointer;
     display: inline-block;
     font-size: 1em;
@@ -1139,8 +1139,8 @@ input[type="radio"] {
       width: 2.0625em; }
   input[type="checkbox"]:checked + label:before,
   input[type="radio"]:checked + label:before {
-    background: #3d4449;
-    border-color: #3d4449;
+    background: #0C213D;
+    border-color: #0C213D;
     color: #ffffff;
     content: '\f00c'; }
   input[type="checkbox"]:focus + label:before,
@@ -1155,19 +1155,19 @@ input[type="radio"] + label:before {
   border-radius: 100%; }
 
 ::-webkit-input-placeholder {
-  color: #9fa3a6 !important;
+  color: #0C213D !important;
   opacity: 1.0; }
 
 :-moz-placeholder {
-  color: #9fa3a6 !important;
+  color: #0C213D !important;
   opacity: 1.0; }
 
 ::-moz-placeholder {
-  color: #9fa3a6 !important;
+  color: #0C213D !important;
   opacity: 1.0; }
 
 :-ms-input-placeholder {
-  color: #9fa3a6 !important;
+  color: #0C213D !important;
   opacity: 1.0; }
 
 /* Box */
@@ -1472,7 +1472,7 @@ table {
   table td {
     padding: 0.75em 0.75em; }
   table th {
-    color: #3d4449;
+    color: #0C213D;
     font-size: 0.9em;
     font-weight: 600;
     padding: 0 0.75em 0.75em 0.75em;
@@ -1579,13 +1579,13 @@ button,
     input[type="button"].primary:hover,
     button.primary:hover,
     .button.primary:hover {
-      background-color: #f67878; }
+      background-color: #513A34; }
     input[type="submit"].primary:active,
     input[type="reset"].primary:active,
     input[type="button"].primary:active,
     button.primary:active,
     .button.primary:active {
-      background-color: #f45c5c; }
+      background-color: #513A34; }
   input[type="submit"].disabled, input[type="submit"]:disabled,
   input[type="reset"].disabled,
   input[type="reset"]:disabled,
@@ -1917,7 +1917,7 @@ button,
     -webkit-transform: scaleX(-1);
     -ms-transform: scaleX(-1);
     transform: scaleX(-1);
-    color: #7f888f;
+    color: #7E93AB;
     content: '\f002';
     cursor: default;
     display: block;
@@ -2072,7 +2072,7 @@ button,
       text-indent: 7.25em;
       width: 7.25em; }
       #sidebar .toggle:before {
-        color: #7f888f;
+        color: #7E93AB;
         margin-left: -0.0625em;
         margin-top: -0.25em;
         font-size: 1.1rem;
@@ -2205,7 +2205,7 @@ button,
 
 /* Footer */
 #footer .copyright {
-  color: #9fa3a6;
+  color: #0C213D;
   font-size: 0.9em; }
   #footer .copyright a {
     color: inherit; }
@@ -2216,7 +2216,7 @@ button,
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  color: #3d4449;
+  color: #0C213D;
   font-family: "Roboto Slab", serif;
   font-weight: 400;
   letter-spacing: 0.075em;
@@ -2257,7 +2257,7 @@ button,
         -webkit-transition: color 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
         -ms-transition: color 0.2s ease-in-out, -ms-transform 0.2s ease-in-out;
         transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
-        color: #9fa3a6;
+        color: #0C213D;
         content: '\f078';
         position: absolute;
         right: 0; }
@@ -2276,7 +2276,7 @@ button,
   margin: 0.5em 0 0 0;
   padding: 0.5em 0 0 0; }
   #menu > ul > li > ul {
-    color: #9fa3a6;
+    color: #0C213D;
     display: none;
     margin: 0.5em 0 1.5em 0;
     padding-left: 1em; }
