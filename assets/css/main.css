@@ -1596,7 +1596,7 @@ button,
   .button.disabled,
   .button:disabled {
     pointer-events: none;
-    opacity: 0.25; }
+    opacity: 0.25; }s
 
 /* Mini Posts */
 .mini-posts article {
